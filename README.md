@@ -22,5 +22,5 @@ This repo contains the code, data and results for Datathon M2M
 * ranksamples.R has also code for exploratory data analysis
 * playaround.R contains generic code
 * mixoutputs.R have code for ensembling results from several classifiers
-* Rest of R files have a name which shows the model implemented in the file. All models have several chuncks of code, where each chunk is associated to the use of an specific validation method. The final chunk is always the chunk to produce the final result for submission (in the ARIMAX and ARIM models)
+* Rest of R files have a name which shows the model implemented in the file. All models have several chunks of code, where each chunk is associated to the use of an specific validation method. The final chunk is always the chunk to produce the final result for submission (in the ARIMAX and ARIM models)
 
