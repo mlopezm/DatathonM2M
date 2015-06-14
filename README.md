@@ -4,6 +4,7 @@ Code, data and help for datathon M2M
 This repo contains the code, data and results for Datathon M2M
 ### To start.....
 * All files needed for the solution are in the code subdirectory. You have to download the complete code directory and open the RStudio project.
+
 ### Description
 * Files ending in R contain R code. The name indicate the model or use. I have deleted previous versions of files to make easier to navigate through the code
 * Files ending in Rdat contain R objects, you have to load it using load("file.Rdat") to load the object in your R session.
