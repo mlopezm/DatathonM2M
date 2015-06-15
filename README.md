@@ -15,12 +15,13 @@ This repo contains the code, data and results for Datathon M2M
 * The csv files contain the original data and are not included here because github doesn't allow files >100MB
 
 ### Rdat files Details
-* The more important Rdat file is dat.ini.Rdat and sim.uwgh2_4_xtra.all.new.Rdat  which contain the support and input data already transformed in wide format.
+* The more important Rdat file is dat.ini.Rdat and sim.uwgh2_4_xtra.all.new.Rdat  that have the support and input data already transformed in wide format.
 * There is an Rdat file, for each model fitted, starting with "hr". These files contain the loss function(rendimiento) results per SIM when using the test sets. Besides these files, there are additional Rdat files storing intermediate R objects.
 
 ### R files Details
 * loaddat.R and preparedat.R are the pipeline to create the variables sim.p and sim.u
 * the variable sim.uwg which contains all the fully transformed data in wide format can be loaded using load("sim.uwgh2_4_xtra.all.new.Rdat")  or created using sim.uwg=towidef2h(valsims) which calls a function in the file: librarycode.R
+* librarycode.R contains support for the loss function and the tranformation needed for the input data.
 * eda.R contains code for exploratory data analysis
 * ranksamples.R has also code for exploratory data analysis that tried to cluster the SIMs according with the prediction results.
 * playaround.R contains generic code
