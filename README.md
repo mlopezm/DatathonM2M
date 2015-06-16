@@ -10,7 +10,6 @@ This repo contains the code, data and results for Datathon M2M
 * I have deleted previous versions of files to make easier to navigate through the code
 * Files ending in Rdat contain R objects. You have to load it using load("file.Rdat") if you want to load the object in your R session.
 * The ppt file contains the results presentation
-* The excel file contains intermediate results obtained from the different models.
 * The Rproj file and .Rdata contain the RStudio project and environment data
 * The csv files contain the original data and are not included here because github doesn't allow files >100MB
 
